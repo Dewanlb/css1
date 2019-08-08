@@ -1,0 +1,213 @@
+h1{
+    display:flex; width: 70%;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+body{
+    background-color:  #F0ECEE}
+ul {
+    display: inline;
+    justify-content: space-between;}
+.nav-item a {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #88898B;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600
+  }
+.nav-item a:hover {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #FF4850;
+    color: white;
+  }
+.nav
+{   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+    }
+    .b{   
+        font-family: 'Fira Sans', sans-serif;
+        position: relative;
+        color:#FF4850
+        ;
+        font-weight: 600;
+    }
+    .a 
+    {color:#FF4850
+        ;
+        display: inline;
+      
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .c{  
+        font-family: 'Fira Sans', sans-serif;
+        display: inline-block;
+       
+        margin: 15px;
+        font-weight: 600;
+        } 
+p{color: #88898B;
+        margin: 10px;
+        justify-self: center;
+        align-self: center;}
+a{
+     white-space: nowrap;
+     color: rgb(194, 140, 140);
+     text-decoration: none;}
+
+            .x a{ 
+          
+       visibility: hidden;}
+       .wow{border-radius: 15px;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+      background-color: #FF4850;
+      color: white;
+     width: 100%;
+    margin: 15px;
+    font-family:'Fira Sas', sans-serif;
+        font-weight:600;}
+.wow2{
+        border-radius: 15px;
+        visibility: visible;
+        padding: 10px;
+        justify-self: center;
+        align-self: center;
+        background-color: #FF4850;
+        color: white;
+        width: 100%;
+        margin: 15px;
+        font-family:'Fira Sas', sans-serif;
+            font-weight:600;}
+    .son{margin: 10px;
+        width: 70%;
+        display: inherit;
+      
+       }
+       .line{display: none;
+       font-family: 'Fira Sans', sans-serif;
+       }
+               
+        
+        
+        
+@media screen and (min-width: 768px)
+{
+     .x a{visibility: visible;
+            display: inline;
+            padding: 10px;
+            text-decoration: none;
+            color: #88898B;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 600}
+        .wow2{visibility: hidden;
+            max-height: 0;
+            overflow: hidden;}
+        
+    
+        .x a:hover{ background-color: #FF4850;
+                    padding: 10px;
+                    border-radius: 15px;
+                color: white;}
+    body{
+        background:url('bulldog.jpg') no-repeat;
+        background-size: 100%;
+    }
+    .container  {display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: stretch;
+    padding: 5%;
+    width: 50%;
+    }
+.cont{
+    width: 95%;
+  padding-left: 0px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: initial;
+  position: absolute;
+}
+.nav
+{
+        display: flex;
+        list-style: none;
+        justify-self: flex-end;
+        flex-direction: row;
+        margin-top: -20px;    }
+    .nav-item a {
+        display: inline;
+        padding: 10px;
+        text-decoration: none;
+        color: #88898B;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 600
+      }
+      .nav-item a:hover {
+          border-radius: 15px;
+          padding: 10px;
+        background-color: #FF4850;
+        color: white;}
+
+.container div{display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width:70%;
+    justify-items: flex-start;
+       }
+h2{ 
+    font-family: 'Fira Sans', sans-serif;
+        font-weight: 600;
+        margin: 10px;
+} 
+.son {  display: inline-block;
+    flex-direction: column;
+        width: 100%; 
+        margin: 15px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 600;
+    }
+    .b{   
+        font-family: 'Fira Sans', sans-serif;
+        position: relative;
+        color:#FF4850
+        ;
+        font-weight: 600;
+    }
+    .c{  
+        font-family: 'Fira Sans', sans-serif;
+        
+       
+        margin: 15px;
+        font-weight: 600;
+        }
+    p{margin: 15px;
+    font-family:'Fira Sas', sans-serif;
+    font-weight:300;
+}
+.wow{border-radius: 15px;
+    padding: 10px;
+  background-color: #FF4850;
+  color: white;
+ width: 20%;
+margin: 15px;
+font-family:'Fira Sas', sans-serif;
+    font-weight:300;}
+    p{color: #88898B}
+
+.line {
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+   
+
+}
+}
